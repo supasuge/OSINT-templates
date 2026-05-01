@@ -36,9 +36,9 @@ tags: [osint, investigation, case-report]
 ## Scope & Objectives
 
 **Scope:**
-- Target(s): <Domain, Individual, Organization, Infrastructure>
-- Timeframe: <Start Date – End Date>
-- Data Types: <Social media, DNS, metadata, etc.>
+- Target(s): \<Domain, Individual, Organization, Infrastructure, Group>
+- Timeframe: \<Start Date – End Date>
+- Data Types: \<Social media, DNS, metadata, etc.>
 
 **Objectives:**
 - \<Objective 1>
@@ -87,7 +87,7 @@ tags: [osint, investigation, case-report]
 <Logs / JSON / Extract>
 ```
 
-- **Timestamp:** <ISO 8601 format>
+- **Timestamp:** \<ISO 8601 format>
 
 ---
 
@@ -152,7 +152,7 @@ tags: [osint, investigation, case-report]
 
 | Timestamp | Event | Source |
 |----------|------|--------|
-| <time> | <event> | <link> |
+| \<time> | \<event> | \<link> |
 
 ---
 
@@ -171,10 +171,11 @@ tags: [osint, investigation, case-report]
 
 ### E. Chain-of-Custody Tracking
 
-```md
+
 **Evidence Hash (SHA256):** <hash>
 **Collected By:** <name>
 **Collection Method:** <tool/process>
-```
+**Date/Time**: MM/DD/YY:2400
+
 
 ---
