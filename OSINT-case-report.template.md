@@ -131,8 +131,11 @@ tags: [osint, investigation, case-report]
 
 - \<Primary takeaway>
 - \<Secondary takeaway>
+- \<Third takeaway>
+- \<Verified Correlations noted>
+- \<Unverifiable Correlations noted>
 - \<Recommended next steps (if applicable)>
-
+- \<General conclusive finding with traceable evidence acquisition paths>  
 ---
 
 ## Appendix
