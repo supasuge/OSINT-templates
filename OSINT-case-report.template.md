@@ -172,10 +172,9 @@ tags: [osint, investigation, case-report]
 ### E. Chain-of-Custody Tracking
 
 
-**Evidence Hash (SHA256):** <hash>
-**Collected By:** <name>
-**Collection Method:** <tool/process>
-**Date/Time**: MM/DD/YY:2400
-
+- **Evidence Hash (SHA256):** <hash>
+- **Collected By:** <name>
+- **Collection Method:** <tool/process>
+- **Date/Time**: MM/DD/YY:2400
 
 ---
