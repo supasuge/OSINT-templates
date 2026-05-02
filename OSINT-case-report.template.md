@@ -1,22 +1,25 @@
 ---
-title: "OSINT Case Report – <Case Title>"
-date: <% tp.date.now("YYYY-MM-DD") %>
-analyst: "<Your Name>"
+title: "OSINT Case Report – {{title}}"
+date: {{date}}
+analyst: \<First Last | Title | Employer>
 contact: "<Email/Contact Info>"
 classification: "Internal | Confidential | Public"
-tags: [osint, investigation, case-report]
+tags: 
+  - osint
+  - investigation
+  - case-report
 ---
-# OSINT Case Report
+# {{title}} OSINT Case Report
 
 ---
 
 ## Cover Page
 
-**Case Title:** \<Case Title\>  
-**Date:** <% tp.date.now("YYYY-MM-DD") %>  
+**Case Title:** {{title}}
+**Date:** {{data}}
 **Analyst:** \<Your Name>  
 **Contact Information:** <Email / Org>  
-**Case ID:** \<Optional Unique Identifier>  
+**Case ID:** \<Unique case identifier if available>  
 **Classification:** \<Internal / Confidential / Public>  
 
 ---
@@ -36,9 +39,9 @@ tags: [osint, investigation, case-report]
 ## Scope & Objectives
 
 **Scope:**
-- Target(s): \<Domain, Individual, Organization, Infrastructure, Group>
-- Timeframe: \<Start Date – End Date>
-- Data Types: \<Social media, DNS, metadata, etc.>
+- Target(s): <Domain, Individual, Organization, Infrastructure>
+- Timeframe: <Start Date – End Date>
+- Data Types: <Social media, DNS, metadata, etc.>
 
 **Objectives:**
 - \<Objective 1>
@@ -87,7 +90,7 @@ tags: [osint, investigation, case-report]
 <Logs / JSON / Extract>
 ```
 
-- **Timestamp:** \<ISO 8601 format>
+- **Timestamp:** <ISO 8601 format>
 
 ---
 
@@ -131,11 +134,8 @@ tags: [osint, investigation, case-report]
 
 - \<Primary takeaway>
 - \<Secondary takeaway>
-- \<Third takeaway>
-- \<Verified Correlations noted>
-- \<Unverifiable Correlations noted>
 - \<Recommended next steps (if applicable)>
-- \<General conclusive finding with traceable evidence acquisition paths>  
+
 ---
 
 ## Appendix
@@ -152,7 +152,7 @@ tags: [osint, investigation, case-report]
 
 | Timestamp | Event | Source |
 |----------|------|--------|
-| \<time> | \<event> | \<link> |
+| <time> | <event> | <link> |
 
 ---
 
@@ -171,10 +171,11 @@ tags: [osint, investigation, case-report]
 
 ### E. Chain-of-Custody Tracking
 
+```md
+**Evidence Hash (SHA256):** <hash>
+**Collected By:** <name>
+**Collection Method:** <tool/process>
+```
 
-- **Evidence Hash (SHA256):** <hash>
-- **Collected By:** <name>
-- **Collection Method:** <tool/process>
-- **Date/Time**: MM/DD/YY:2400
 
 ---
